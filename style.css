@@ -1,16 +1,68 @@
-.section1{
-	background-color:#FFFFCC;
+body {
+        background-color: #FFF;
+        font-family: 'Tw Cen MT';
+        margin: 1em auto;
+        max-width: 50em;
+        height: 52.625em;
+        border: 5px solid #35424a;
+      }
+
+.left_side{
+	width: 35%;
+    float: left;
+    height: 100%;
+    background-color: #009933;
+    color: #fff;
+    text-align: center;
+
 }
 
-#h1{
-	color:  #009933;
+.right_side{
+	 width: 65%;
+	 height: 100%;
+     float: right;
+     background-color: #35424a;
+     color: #ffffff;
+    
+}
+.right_in{
+	 padding: 20px;
+}
+
+#hrl{
+	width: 8em;
+    display: block;
+    height: 2px;
+    border: 0px;
+    border-top: 2px solid;
+    color: #FF3300;
 }
 #h2{
-	color:   #0000FF;
+	font-family: 'Agency FB';
+	color: #00FF00;
+
+}
+#h2:hover{
+	font-family: 'Agency FB';
+	color: white;
+
+}
+h1{
+	font-family: 'Copperplate Gothic Light';
+	color: #35424a;
+
+}
+h1:hover{
+	font-family: 'Copperplate Gothic Light';
+	color: #FF3300;
+
+}
+.contact{
+	margin-top: 80px;
 }
 table {
     border-collapse: collapse;
-    width: 60%;
+    width: 100%;
 }
 
 th, td {
@@ -18,9 +70,40 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #35424a;}
 
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FF3300;
+    
 }
+input[type="text"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  opacity: 0.7;
+}
+input[type="text"]:hover{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  opacity: 1.0;
+}
+
+button{
+  height: 38px;
+  background: #e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+button:hover{
+  height: 38px;
+  background: #00FF00;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+
