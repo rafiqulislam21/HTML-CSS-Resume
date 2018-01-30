@@ -5,10 +5,11 @@ body {
         max-width: 50em;
         height: 52.625em;
         border: 5px solid #35424a;
+        min-width: 359px;
       }
 
 .left_side{
-	width: 35%;
+	  width: 35%;
     float: left;
     height: 100%;
     background-color: #009933;
@@ -60,22 +61,17 @@ h1:hover{
 .contact{
 	margin-top: 80px;
 }
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
 
-th, td {
-    text-align: left;
-    padding: 8px;
-}
+table{
+      border-collapse: collapse;
+      font-family: Arial, Verdana, sans-serif;
+      color: white;
+      text-align: center;
+     
+      width: 100%;
+    }
 
-tr:nth-child(even){background-color: #35424a;}
 
-th {
-    background-color: #FF3300;
-    
-}
 input[type="text"]{
   padding: 4px;
   height: 25px;
@@ -106,18 +102,57 @@ button:hover{
   color: white;
 }
 
-@media screen and (max-width: 640px){
+
+
+
+
+@media screen and (max-width: 766px){
+      .left_side{
+        height: 120%;
+        
+      }
+
+      .right_side{
+        height: 120%;
+      }
+
+      body{
+         border: 5px solid white;
+      }
+
+    }
+
+@media screen and (max-width: 570px){
       .left_side{
         width:100%;
         height: 70%;
-       
+        
       }
 
       .right_side{
         width: 100%;
-        height: 110%;
-     
+        height: 125%;
       }
+
+    }
+
+
+
+
+
+
+
+    @media screen and (max-width: 1366px) {
+      
+    tr td:first-child {background: #FF3300; font-weight:bold;font-size:1.3em;}
+        
   }
 
+
+    @media screen and (max-width: 765px) {
+    table {width:100%;}
+    tr td:first-child {background: #FF3300; font-weight:bold;font-size:1.3em;}
+    tbody td {display: block;  text-align:center;}
+    
+  }
 
